@@ -1,31 +1,58 @@
 /**{
 	outline:1px solid rgba(255,0,0,0.3);
 } */
+#imagenes::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#imagenes::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: rgba(255,255,255,0);
+}
+
+#imagenes::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #000;
+}
+
 img{max-width: 100%;}
 .lista-sin-estilo{	margin: 0px; padding: 0px; list-style: none;}
-body{font-family: 'Lato'; margin:auto;}
+body{font-family: 'Lato'; margin:auto; background-color: #D5DAD6;}
 
-.head ul li{display:inline-block; margin-right: 20px;}
-.head{font-size: 20px; text-align: center; margin-top: 40px; padding-top: 20px;  padding-bottom: 20px; background-color: #000; color:#fff;}
+.head ul li{display:inline-block; margin-right: 20px; margin-left: 20px;}
+.head{font-size: 20px; text-align: center;  padding-top: 40px;  padding-bottom: 20px; background-color: #000; }
+.head ul{position: fixed; top:0; width:960px; background-color: #000; padding-top: 20px; padding-bottom: 20px;}
+.head ul a{color:#fff; padding: 5px;}
+.head ul a:hover{border-bottom: 1px solid #fff; border-top: 1px solid #fff;}
 
+.portada{background-image: url("../images/acuarela.jpg"); height: 300px; width: 100%; background-size: cover; text-align: center; color:#000;padding-top: 60px; }
+.portada h1{ top:20%; font-size: 45px;letter-spacing: 7px;}
+.cuadrado {background-color:rgba(255,255,255,0.4);  border:5px solid #000; width: 60%; margin: auto; vertical-align: middle;}
+.portada h2{ top:25%;}
+.portada img{ width: 60px;}
 
-.portada{background-image: url("../images/acuarela.jpg");position: relative; height: 300px; width: 100%; background-size: cover; text-align: center; color:#000;padding: 0px; }
-.portada h1{position:relative; top:20%; font-size: 45px;letter-spacing: 7px;}
-.cuadrado {background-color:rgba(255,255,255,0.4);  border:5px solid #000; width: 60%; margin: auto; vertical-align: middle; position: relative; top:60px;}
-.portada h2{position: relative; top:25%;}
-.portada img{position: relative; width: 60px;}
+.datos{padding-top: 50px;padding-bottom: 50px; text-align: center; background-color:#B488AC;}
+.datos div:first-child{background-color: #000; height: 60px; width: 250px; margin: auto;  border:2px solid #fff; outline: 2px solid #000; padding-top: 15px;}
+.datos div h1{margin-bottom: 20px; color:#fff;  font-weight: 300;}
+.datos div:last-child{background-color: rgba(255,255,255,0.8); border: 3px solid #000; margin-top: 30px; width: 600px; padding: 20px;}
+.datos div p{text-align: justify; letter-spacing: 1.5px;}
+.datos img {border:3px solid #fff; outline: 1.5px solid #000;}
 
-.datos{padding-top: 50px;padding-bottom: 100px; text-align: center; background-image: url('../images/tile1.png');}
-.datos h1{margin-bottom: 20px;}
-.datos div p{text-align: justify;}
+.favoritos{text-align: center; background-color: #BACFD2; padding-top: 50px; padding-bottom: 70px;}
+.favoritos div h1{margin-bottom: 20px; font-weight: 300;  }
+.favoritos div:first-child{background-color:rgba(255,255,255,0.8); height: 60px; width: 250px; margin: auto; border:2px solid #000; outline: 2px solid #fff; padding-top: 15px;}
+.favoritos h4{margin-bottom: 25px; margin-top: 20px; font-weight: 300;}
+.favoritos div:last-child{width: 75%; margin:auto; height: 175px; margin-bottom:40px; overflow: auto;}
+.favoritos div ul li {display: inline-block; width: 150px; height: 150px; margin-top:15px; margin-right: 15px; border-radius: 100%; overflow: hidden;  }
 
-.favoritos{text-align: center;}
-.favoritos h1{margin-bottom: 15px;}
-.favoritos h3{margin-bottom: 25px;}
-.favoritos div{width: 75%; margin:auto; height: 175px; margin-bottom:40px; overflow: auto;}
-.favoritos div ul li {display: inline-block; width: 150px; margin-top:15px; margin-right: 15px; }
-.favoritos div ul li img{border-radius: 100%; }
-
-.pie {text-align: center; padding-top: 50px;}
-.pie ul{margin-top: 35px;}
+.pie {text-align: center; padding-top: 70px; background-image:url('../images/pink-1.jpg') }
+.pie div:first-child{background-color: #000; height: 60px; width: 250px; margin: auto; position: relative; border:2px solid #fff; outline: 2px solid #000;}
+.pie ul{margin-top: 50px; margin-bottom: 50px;}
+.pie div h1 {margin-bottom: 20px; color:#fff;  font-weight: 300; top:15px; position: relative;}
 .pie ul li {display: inline-block; margin-right: 30px;}

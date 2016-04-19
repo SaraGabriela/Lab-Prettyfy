@@ -6,16 +6,16 @@
   <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/grid-system.css">
   <link rel="stylesheet" href="css/main.css">
-  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <div class="container">
  <header>
  	<div class="head row"> <!--Comienza head-->
  		<ul class="lista-sin-estilo">
- 			<li>ACERCA DE MÍ</li>
- 			<li>FAVORITOS</li>
- 			<li>CONTACTO</li>
+ 			<a href="#datos"><li>ACERCA DE MÍ</li></a>
+ 			<a href="#favoritos"><li>FAVORITOS</li></a>
+ 			<a href="#contacto"><li>CONTACTO</li></a>
  		</ul>
  	</div>    <!--Termina head-->
  </header>
@@ -28,44 +28,39 @@
  	</div>	
  	</div>  <!--Termina portada-->
  </section>
- <section>
- 	<div class="row datos">   <!--Comienza datos-->
- 	<h1>Sobre mí</h1> 	
- 	<div class="col-3"><img src="images/profile.jpg"></div>
- 	<div class="col-9"><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
- 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
- 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
- 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
- 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
- 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+ <section id="datos">
+ 	<div class="row datos" >   <!--Comienza datos-->
+ 	<div><h1>&#8226;  ACERCA DE MÍ  &#8226;</h1></div> 	
+ 	<div class="col-3"><img src="images/foto.jpg"></div>
+ 	<div class="col-9"><p> Mi nombre es Sara y tengo 21 años. Me apasiona la idea de que, en un futuro, la tecnología y el arte puedan funcionar en conjunto. Me gusta muchísimo dibujar y me encanta aprender cosas nuevas, por eso quiero ser una coder y en un futuro brindar soluciones al mercado digital. </br>Considero que tan importante como aprender cosas nuevas, es compartir esos conocimientos. Por eso me gustaría ayudar a personas a desarrollar sus habilidades y motivarlas a también ayudar. </p>
  	</div>	
  	</div>                 <!--Termina datos-->
  </section>
- <section>
+ <section id="favoritos">
  	<div class="row favoritos">   <!--Comienza favoritos-->
- 		<h1>Mis cosas favoritas</h1>
- 		<h3>Aquí hay algunas cosas que amo</h3>
- 		<div>
+ 		<div><h1>&#8226;  MIS FAVORITOS  &#8226;</h1></div>
+ 		<h4>AQUÍ ESTÁN MIS COSAS FAVORITAS EN EL MUNDO</h4>
+ 		<div id="imagenes">
  		   <ul class="lista-sin-estilo">
- 			<li><img src="images/kitten.jpg"/></li>
- 			<li><img src="images/kitten.jpg"/></li>
- 			<li><img src="images/kitten.jpg"/></li>
- 			<li><img src="images/kitten.jpg"/></li>
- 			<li><img src="images/kitten.jpg"/></li>
- 			<li><img src="images/kitten.jpg"/></li>
- 			<li><img src="images/kitten.jpg"/></li>
- 			<li><img src="images/kitten.jpg"/></li>
+ 			<li><img src="images/pintar-2.jpg"/></li>
+ 			<li><img src="images/code.png"/></li>
+ 			<li><img src="images/music.jpg"/></li>
+ 			<li><img src="images/robot-2.jpg"/></li>
+ 			<li><img src="images/tim.jpg"/></li>
+ 			<li><img src="images/ballet-1.jpg"/></li>
+ 			<li><img src="images/lluvia-2.jpg"/></li>
+ 			<li><img src="images/teatro.jpg"/></li>
  			</ul>
  		</div>
  	</div>           <!--Termina favoritos-->
  </section>
- <section>
+ <section id="contacto">
   <div class="row pie">    <!--Comienza pie-->
-  	<h1>Contacto</h1>
+  	<div><h1>&#8226;  CONTACTO  &#8226;</h1></div>
   	<ul class="lista-sin-estilo">
-  		<li><img src="images/twitter.png"/></li>
-  		<li><img src="images/facebook.png"/></li>
-  		<li><img src="images/linkedin.png"/></li>
+  		<li><a href="https://github.com/SaraGabriela"><img src="images/twitter.png"/></a></li>
+  		<li><a href="https://www.facebook.com/sara.diazoporto"><img src="images/facebook.png"/></a></li>
+  		<li><a href="https://www.linkedin.com/in/sara-d%C3%ADaz-oporto-78748810b?"><img src="images/linkedin.png"/></a></li>
   	</ul>
   </div>    <!--Termina pie-->
  </section>
