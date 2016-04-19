@@ -34,7 +34,7 @@ body{font-family: 'Lato'; margin:auto; background-color: #D5DAD6;}
 .portada{background-image: url("../images/acuarela.jpg"); height: 300px; width: 100%; background-size: cover; text-align: center; color:#000;padding-top: 60px; }
 .portada h1{ top:20%; font-size: 45px;letter-spacing: 7px;}
 .cuadrado {background-color:rgba(255,255,255,0.4);  border:5px solid #000; width: 60%; margin: auto; vertical-align: middle;}
-.portada h2{ top:25%;}
+.portada h2{ top:25%; font-weight: 300; margin-bottom: 20px;}
 .portada img{ width: 60px;}
 
 .datos{padding-top: 50px;padding-bottom: 50px; text-align: center; background-color:#B488AC;}
